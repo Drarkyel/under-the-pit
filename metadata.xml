@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Under The Pit</name>
+    <directory>under the pit</directory>
+    <id>1405710335</id>
+    <description>===== Only download if you're a team member! =====</description>
+    <version>1.8</version>
+    <visibility>Friends Only</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Active Items"/>
+    <tag id="Trinkets"/>
+    <tag id="Pills"/>
+    <tag id="Cards"/>
+    <tag id="Pickups"/>
+    <tag id="Player Characters"/>
+    <tag id="Familiars"/>
+    <tag id="Rooms"/>
+    <tag id="Enemies"/>
+    <tag id="Hazards"/>
+    <tag id="Challenges"/>
+    <tag id="Graphics"/>
+    <tag id="Sound Effects"/>
+</metadata>

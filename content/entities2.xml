@@ -1,0 +1,118 @@
+<entities anm2root="gfx/" version="5">
+	<!-- Ghost Heart / Familiar -->
+	<entity anm2path="ghost_heart_orbital.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="3" collisionRadius="13" friction="1" id="3" variant="600" name="Ghost Heart Orbital" numGridCollisionPoints="12" shadowSize="14" stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Eye of the Beholder / Familiar -->
+	<entity anm2path="eye_of_the_beholder.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="3" collisionRadius="13" friction="1" id="3" variant="900" name="Eye of the Beholder" numGridCollisionPoints="12" shadowSize="14" stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Ghost Heart -->
+    <entity anm2path="ghost_heart.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="3" collisionRadius="12" friction="1" id="5" name="Ghost Heart" numGridCollisionPoints="24" shadowSize="17" stageHP="0" variant="600" subtype="1">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Devil Chest -->
+	<entity anm2path="devil_chest.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="3" collisionRadius="12" friction="0" id="5" name="Devil Chest" numGridCollisionPoints="24" shadowSize="28" stageHP="0" variant="600" subtype="3">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+		<preload-snd id="22" /> <!-- CHEST_OPEN -->
+	</entity>
+	<!-- Mangled Gaper -->
+	<entity anm2path="mangled_gaper.anm2" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="21" name="Mangled Gaper" numGridCollisionPoints="12" shadowSize="24" stageHP="0" subtype="0" variant="600" portrait="55" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkHori">
+		<gibs amount="5" blood="1" bone="1" eye="0" gut="2" large="0" />
+		<preload-snd id="167" /> <!-- SOUND_ANGRY_GURGLE -->
+	</entity>
+	<!-- Flaming Mangled Gaper -->
+	<entity anm2path="flaming_mangled_gaper.anm2" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="21" name="Flaming Mangled Gaper" numGridCollisionPoints="12" shadowSize="24" stageHP="0" subtype="1" variant="600" portrait="55" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkHori">
+		<gibs amount="5" blood="1" bone="1" eye="0" gut="2" large="0" />
+		<preload-snd id="167" /> <!-- SOUND_ANGRY_GURGLE -->
+	</entity>
+	<!-- Blue Mangled Gaper -->
+	<entity anm2path="blue_mangled_gaper.anm2" baseHP="32" boss="0" champion="0" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="21" name="Blue Mangled Gaper" numGridCollisionPoints="12" shadowSize="24" stageHP="2" subtype="2" variant="600" portrait="55" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkHori">
+		<gibs amount="5" blood="1" bone="1" eye="0" gut="2" large="0" />
+		<preload-snd id="167" /> <!-- SOUND_ANGRY_GURGLE -->
+	</entity>
+	<!-- Gravehunter -->
+	<entity id="38" variant="44045" anm2path="gravehunter.anm2" reroll="true" baseHP="25" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="1" name="Gravehunter" numGridCollisionPoints="12" shadowSize="14" stageHP="2" portrait="40" shutdoors="false" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle">
+        <gibs amount="4" blood="0" bone="1" eye="0" gut="0" large="0" poop="0" />
+    </entity>
+	<!-- Maw of the Pit -->
+	<entity anm2path="maw_of_the_pit.anm2" reroll="true" baseHP="35" boss="0" champion="1" collisionDamage="1" collisionMass="6" collisionRadius="13" friction="1" id="207" name="Maw of the Pit" numGridCollisionPoints="12" shadowSize="11" stageHP="5" variant="44045" portrait="75" bestiary="true" gridCollision="walls" bestiaryTransform="0,0,1" bestiaryAnim="Walk">
+		<gibs amount="12" blood="1" bone="1" eye="0" gut="1" large="0" />
+	</entity>
+	<!-- Host Creep -->
+	<entity id="242" variant="600" name="Host Creep" baseHP="30" stageHP="0" boss="0" champion="1" collisionDamage="1" collisionMass="14" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="0" portrait="95" anm2path="host_creep.anm2" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Walk">
+		<gibs amount="4" blood="1" bone="0" eye="0" gut="1" large="0" />
+	</entity>
+	<!-- Corn Fly -->
+	<entity anm2path="corn_fly.anm2" reroll="true" baseHP="8.5" boss="0" champion="0" collisionDamage="1" collisionMass="2" collisionRadius="17" friction="1.02" id="256" name="Corn Fly" numGridCollisionPoints="0" shadowSize="11" stageHP="0" variant="600" portrait="118" gridCollision="walls" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Fly">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+	<!-- Dripler -->
+	<entity anm2path="dripler.anm2" reroll="true" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="4" collisionRadius="13" friction="1" id="288" name="Dripler" numGridCollisionPoints="12" shadowSize="0" stageHP="0" variant="600" portrait="19" gridCollision="walls" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Fly">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Brown Poop Mimic -->
+	<entity id="900" anm2path="brown_poop_mimic.anm2" baseHP="15" stageHP="1" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Brown Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Shoot" shutdoors="false">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+	</entity>
+	<!-- Red Poop Mimic -->
+    <entity id="900" variant="1" anm2path="red_poop_mimic.anm2" baseHP="20" stageHP="2" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Red Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- Corny Poop Mimic -->
+    <entity id="900" variant="2" anm2path="corny_poop_mimic.anm2" baseHP="30" stageHP="3" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Corny Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- Golden Poop Mimic -->
+    <entity id="900" variant="3" anm2path="golden_poop_mimic.anm2" baseHP="35" stageHP="3" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Golden Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- Rainbow Poop Mimic -->
+    <entity id="900" variant="4" anm2path="rainbow_poop_mimic.anm2" baseHP="40" stageHP="4" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Rainbow Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- Black Poop Mimic -->
+    <entity id="900" variant="5" anm2path="black_poop_mimic.anm2" baseHP="25" stageHP="2" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="Black Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- White Poop Mimic -->
+    <entity id="900" variant="6" anm2path="white_poop_mimic.anm2" baseHP="15" stageHP="5" boss="0" champion="0" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="0" name="White Poop Mimic" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Surprise" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="8" />
+    </entity>
+	<!-- Ghostling -->
+	<entity id="901" anm2path="ghostling.anm2" baseHP="9" stageHP="3" boss="0" champion="1" collisionDamage="1" collisionMass="500" collisionRadius="13" friction="1.05" name="Ghostling" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle" shutdoors="false">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="0" />
+	</entity>
+	<!-- Cursed Ghostling -->
+	<entity id="901" variant="1" anm2path="cursed_ghostling.anm2" baseHP="15" stageHP="4" boss="0" champion="1" collisionDamage="2" collisionMass="500" collisionRadius="1.01" friction="1.02" name="Cursed Ghostling" numGridCollisionPoints="12" shadowSize="0" portrait="87" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle" shutdoors="false">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" poop="0" />
+	</entity>
+	<!-- Cursed Ghost -->
+	<entity name="Cursed Ghost" id="901" variant="10" anm2path="cursed_ghost.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="6" friction="1" numGridCollisionPoints="0" shadowSize="0" stageHP="0" shutdoors="false">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+	<!-- Walrus -->
+	<entity id="902" variant="0" name="Walrus" reroll="true" baseHP="40" stageHP="0" boss="0" champion="1" collisionDamage="1" collisionMass="100" collisionRadius="13" friction="0.001" numGridCollisionPoints="12" shadowSize="30" portrait="108" anm2path="walrus.anm2" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Aura Effect -->
+	<entity name="Aura" id="64000" anm2path="effect_aura.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" stageHP="0" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Suck Effect -->
+	<entity name="Suck Effect" id="64001" anm2path="effect_sucking.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" stageHP="0" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Coal Effect -->
+	<entity name="Coal Effect" id="64002" anm2path="effect_coal_piece.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" stageHP="0" shutdoors="false">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+	<!-- Big Square Effect -->
+	<entity name="Big Square" id="64003" anm2path="effect_big_square.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" stageHP="0" shutdoors="false">
+		<gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	<!-- Walrus Effect -->
+	<entity anm2path="effect_walrus.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="1" friction="1" id="1000" name="Waterpound" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="6" subtype="600">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+</entities>

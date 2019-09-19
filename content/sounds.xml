@@ -1,0 +1,28 @@
+<sounds root="sfx/">
+	<sound name="Cannon Shot">
+		<sample weight="1" path="cannon_shot_1.wav"/>
+		<sample weight="1" path="cannon_shot_2.wav"/>
+	</sound>
+	<sound name="EMP">
+		<sample weight="1" path="emp.wav"/>
+	</sound>
+	<sound name="Ghost Protection">
+		<sample weight="1" path="ghost_protection.wav"/>
+	</sound>
+	<sound name="Phone Call">
+		<sample weight="1" path="phone_call_1.wav"/>
+		<sample weight="1" path="phone_call_2.wav"/>
+	</sound>
+	<sound name="Vacuum">
+		<sample weight="1" path="vacuum.wav"/>
+	</sound>
+	<sound name="Vilez">
+		<sample weight="1" path="vilez.wav"/>
+	</sound>
+		<sound name="Water Shoot">
+		<sample weight="1" path="plesk_shoot.wav"/>
+	</sound>
+		<sound name="Zalez">
+		<sample weight="1" path="zalez.wav"/>
+	</sound>
+</sounds>

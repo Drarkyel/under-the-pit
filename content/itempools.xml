@@ -1,0 +1,130 @@
+<ItemPools>
+    <Pool Name="treasure">
+		<Item Name="Acne" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Book of Assistance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Book of Exodus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Broken Monitor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Burning Coals" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Electro Device" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fissure" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gasoline Hose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ghost Belt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ghost Vacuum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lacrimal Sac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tesla Tower" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+    <Pool Name="boss">
+        <Item Name="Rotten Candy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Trapped Soul" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+	<Pool Name="shop">
+		<Item Name="Modeling Clay" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Puzzler" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="devil">
+		<Item Name="Cresset of Grievance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eye of the Beholder" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Suspicious Seal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Unholy Grail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+
+    <Pool Name="angel">
+		<Item Name="Cupid's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Deity" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+	<Pool Name="secret">
+		<Item Name="EMF Meter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spectrum Container" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warp Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+
+    <Pool Name="library">
+		<Item Name="Book of Assistance" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+        <Item Name="Book of Exodus" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+    </Pool>
+
+	<Pool Name="redChest">
+		<Item Name="Bogle Bell" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Cursed Mirror" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Isaac's Soul" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Rood" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="demonBeggar">
+		<Item Name="Bogle Bell" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Eye of the Beholder" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Isaac's Soul" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Rood" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Trapped Soul" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="curse">
+		<Item Name="Bogle Bell" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Cursed Mirror" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Isaac's Soul" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Rood" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Spectrum Container" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="demonBeggar">
+		<Item Name="Rood" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+
+    <Pool Name="greedTreasure">
+		<Item Name="Acne" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Book of Assistance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Broken Monitor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Burning Coal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="EMF Meter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fissure" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gasoline Hose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ghost Belt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ghost Vacuum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lacrimal Sac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tesla Tower" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+	<Pool Name="greedBoss">
+		<Item Name="Rotten Candy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Trapped Soul" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="greedShop">
+		<Item Name="Modeling Clay" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Puzzler" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+
+	<Pool Name="greedCurse">
+		<Item Name="Bogle Bell" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Cursed Mirror" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Isaac's Soul" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Rood" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Spectrum Container" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+	
+	<Pool Name="greedDevil">
+		<Item Name="Cresset of Grievance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eye of the Beholder" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Suspicious Seal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Unholy Grail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	
+    <Pool Name="greedAngel">
+		<Item Name="Cupid's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Deity" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+    <Pool Name="greedSecret">
+		<Item Name="EMF Meter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spectrum Container" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Warp Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+
+    <Pool Name="greedLibrary">
+		<Item Name="Book of Assistance" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+    </Pool>
+</ItemPools>

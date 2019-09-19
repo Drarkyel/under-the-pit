@@ -1,0 +1,19 @@
+<costumes anm2root="gfx/characters/">
+	<!-- Items -->
+	<costume type="none" anm2path="burning_coals.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="cupids_heart.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="cursed_mirror.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="deity.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="gasoline_hose.anm2" />
+    <costume type="none" anm2path="ghost_belt.anm2" />
+	<costume type="none" anm2path="isaacs_soul.anm2" />
+	<costume type="none" anm2path="lacrimal_sac.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="rood.anm2" />
+	<costume type="none" anm2path="rotten_candy.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="spectrum_container.anm2" />
+	<costume type="none" anm2path="suspicious_seal.anm2" hasSkinAlt="true" />
+	<costume type="none" anm2path="tesla_tower.anm2" priority="70" />
+	<costume type="none" anm2path="unholy_grail.anm2" />
+	<!-- Transformations -->
+	<costume type="none" anm2path="phantom_transformation.anm2" isFlying="true" priority="99" />
+</costumes>

@@ -1,0 +1,23 @@
+<pocketitems>
+	<!-- Cards -->
+	<card name="Draw Two Card" hud="Draw Two Card" description="???" />
+	<card name="Pound Sign Card" hud="Pound Sign Card" description="???" />
+	<card name="Reverse Card" hud="Reverse Card" description="???" />
+	<card name="Skip Card" hud="Skip Card" description="Jumpcut" />
+	<card name="Wild Card" hud="Wild Card" description="???" />
+	<!-- Runes -->
+	<rune name="Calc" hud="Calc" description="Weakness" />
+	<rune name="Ear" hud="Ear" description="Apparition" />
+	<rune name="Gar" hud="Gar" description="Banishment" />
+	<rune name="Ior" hud="Ior" description="Hardship" />
+	<rune name="Stan" hud="Stan" description="Petrification" />
+	<!-- Pills -->
+	<pilleffect name="Abortion" />
+	<pilleffect name="Golden Shower" />
+	<pilleffect name="Gonorrhea" />
+	<pilleffect name="Hemophilia" />
+	<pilleffect name="Holy Shit!" />
+	<pilleffect name="Mind Blown" />
+	<pilleffect name="Psychokinesis" />
+	<pilleffect name="Yellow Fever" />
+</pocketitems>

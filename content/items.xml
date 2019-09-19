@@ -1,0 +1,42 @@
+<items gfxroot="gfx/items/" version="1">
+	<!-- Items -->
+	<passive name="Acne" description="Pimple tears" cache="tearflag tearcolor" gfx="acne.png" />
+	<active name="Bogle Bell" description="Resurrection" maxcharges="6" gfx="bogle_bell.png" />
+	<active name="Book of Assistance" description="Call for help" maxcharges="3" gfx="book_of_assistance.png" />
+	<active name="Book of Exodus" description="Nothing stands in your way" maxcharges="4" gfx="book_of_exodus.png" />
+	<passive name="Broken Monitor" description="Dead pixels" cache="firedelay" gfx="broken_monitor.png" />
+	<passive name="Burning Coals" description="Hot Hot HOT" cache="speed" gfx="burning_coals.png" />
+	<passive name="Cresset of Grievance" description="Bravery burn" cache="firedelay damage speed" gfx="cresset_of_grievance.png" />
+	<passive name="Cupid's Heart" description="Angelic attraction" cache="tearcolor" maxhearts="2" hearts="2" gfx="cupids_heart.png" />
+	<passive name="Cursed Mirror" description="Bewitched by reflection" cache="damage" gfx="cursed_mirror.png" />
+	<passive name="Deity" description="Blessing for believers" gfx="deity.png" />
+	<active name="Electro Device" description="Disable them!" maxcharges="3" gfx="electro_device.png" />
+	<passive name="EMF Meter" description="3AM challenge" gfx="emf_meter.png" />
+	<familiar name="Eye of the Beholder" description="Seeing for you" devilprice="2" gfx="eye_of_the_beholder.png" />
+	<passive name="Fissure" description="You feel boned" gfx="fissure.png" />
+	<passive name="Gasoline Hose" description="Oil spill" gfx="gasoline_hose.png" />
+	<passive name="Ghost Belt" description="Spiritual fighter" gfx="ghost_belt.png" />
+	<active name="Ghost Vacuum" description="Spectral cleaning" maxcharges="6" gfx="ghost_vacuum.png" />
+	<passive name="Haniwa Figure" description="You feel somebody else inside it" gfx="haniwa_figure.png" />
+	<passive name="Isaac's Soul" description="Inner Purity" cache="firedelay damage shotspeed speed range" gfx="isaacs_soul.png" />
+	<passive name="Lacrimal Sac" description="Tear storage" gfx="lacrimal_sac.png" />
+	<passive name="Modeling Clay" description="..." gfx="modeling_clay.png" />
+	<passive name="Puzzler" description="Effect stacker" gfx="puzzler.png" />
+	<passive name="Rood" description="Forgives your sins" gfx="rood.png" />
+	<passive name="Rotten Candy" description="Last supply" cache="firedelay damage shotspeed speed range" maxhearts="2" hearts="2" gfx="rotten_candy.png" />
+	<passive name="Spectrum Container" description="Filled with unknown energy" gfx="spectrum_container.png" />
+	<passive name="Suspicious Seal" description="Anonym loyalty" cache="firedelay damage shotspeed speed range" blackhearts="2" gfx="suspicious_seal.png" />
+	<passive name="Tesla Tower" description="Shocking service" gfx="tesla_tower.png" />
+	<passive name="Trapped Soul" description="Pending judgment" cache="damage luck" gfx="trapped_soul.png" />
+	<passive name="Unholy Grail" description="Taste of Pain" cache="damage" devilprice="2" gfx="unholy_grail.png" />
+	<active name="Warp Whistle" description="Special room generator" maxcharges="12" gfx="warp_whistle.png" />
+	<!-- Trinkets -->
+	<trinket name="Acid Flask" description="Conflagration poison" gfx="acid_flask.png" />
+	<trinket name="Dynamite" description="Aimbot sensor" gfx="dynamite.png" />
+	<trinket name="Glitched Skull" description="ERROR" gfx="glitched_skull.png" />
+	<trinket name="Greedy Penny" description="Worthless currency" gfx="greedy_penny.png" />
+	<trinket name="Infrared" description="Homing sensor" gfx="infrared.png" />
+	<trinket name="Mystifying Oracle" description="Ghost tool" gfx="mystifying_oracle.png" />
+	<trinket name="Proboscis" description="Feed them!" gfx="proboscis.png" />
+	<trinket name="Tournament Ticket" description="Champion reward" gfx="tournament_ticket.png" />
+</items>
